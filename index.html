@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            background-color: black;
+        }
+
+        .first-row-class{
+            display: inline-block;
+            margin: 50px;
+            background-color: rgb(255, 255, 255);
+            padding: 30px;
+        }
+
+        .second-row-class{
+            display: inline-block;
+            margin: 50px;
+            background-color: rgb(255, 255, 255);
+            padding: 30px;
+        }
+
+        #tahoma{
+            font-family:  Tahoma;
+        }
+
+        .arial{
+            font-family: Arial;
+        }
+
+        #verdana{
+            font-family: Verdana;
+        }
+
+        #get-started{
+            background-color: rgb(31, 121, 19);
+            font-size: .9rem;
+            color: white;
+            padding: 3px 10px 3px 10px;
+            border-color: transparent;
+            border-radius: 10px;
+            
+        }
+
+        #learn-more{
+            background-color: transparent;
+            border:none;
+            color: blue;
+            display: block;
+            margin: auto;
+        }
+
+        .shopping{
+            text-align: center;
+        }
+
+        #gray{
+            color: gray;
+        }
+
+        #red{
+            color: red;
+            font-weight: 500;
+            font-size: 1.3rem;
+            font-style: italic;
+        }
+
+        #see{
+            font-weight: 600;
+            font-size: 13px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="wrapper">
+        <div>
+            <div class="first-row-class"  id="tahoma">
+                <h1>This is Tahoma Font</h1>
+            </div>
+            <div class="first-row-class arial">
+                <h1 >Biggest Deals of the Year!</h1>
+                <p id="red">Sales end Tuesday</p>
+            </div>
+        </div>
+
+        <div>
+            <div class="second-row-class" id="verdana">
+                <h2>HTML CSS Course</h2>
+                <p id="gray">Beginner to Pro</p>
+                <p>In this course, we'll learn the skills you need to become a developer.</p>
+                <button id="get-started">Get Started</button>
+            </div>
+            <div class="second-row-class arial shopping">  
+                <h2>Shopping for your business?</h2>
+                <p id="see">See how Apple at Work can help.</p>
+                <button id="learn-more">Learn more ></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
